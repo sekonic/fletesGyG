@@ -19,16 +19,15 @@ links.forEach((link) => {
 });
 
 // Animaciones + Intersection Observer
-const observer = new IntersectionObserver((elementos) => {
-  console.log(elementos);
-  elementos.forEach((elemento) => {
-    if (elemento.isIntersecting) {
-      elemento.target.classList.add('mostrar');
-    } else {
-      elemento.target.classList.remove('mostrar');
-    }
-  });
-}, { root: null, rootMargin: '-100px 0px', threshold: 0.25});
+// const observer = new IntersectionObserver((elementos) => {
+//   elementos.forEach((elemento) => {
+//     if (elemento.isIntersecting) {
+//       elemento.target.classList.add('mostrar');
+//     } else {
+//       elemento.target.classList.remove('mostrar');
+//     }
+//   });
+// }, { root: null, rootMargin: '-100px 0px', threshold: 0.25});
 
-const secciones = document.querySelectorAll('.oculto');
-secciones.forEach((seccion) => observer.observe(seccion));
+// const secciones = document.querySelectorAll('.oculto');
+// secciones.forEach((seccion) => observer.observe(seccion));
