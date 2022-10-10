@@ -1,0 +1,138 @@
+.contacto {
+  background-color: var(--color-amarillo-claro);
+  height: 100vh;
+  padding-bottom: 0;
+}
+
+.contacto-titulo,
+.contacto-subtitulo,
+.formulario-contacto-subtitulo {
+  color: var(--color-rojo);
+  text-align: center;  
+}
+
+.contacto-subtitulo,
+.formulario-contacto-subtitulo,
+.datos-contacto-subtitulo {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+}
+
+.contacto-contendor {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;  
+}
+
+.contacto-info-contenedor {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.datos-contacto {
+  background-color: var(--color-rojo);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.datos-contacto-subtitulo {
+  font-weight: 600;
+}
+
+.datos-contacto-contenedor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.contacto-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contacto-item-imagen {
+  height: 30px;
+}
+
+.contacto-item-logo {
+  display: block;
+  margin-top: 2rem;  
+}
+
+.contacto-item-logo-imagen {
+  display: block;
+  margin: auto;
+}
+
+.formulario-contacto {
+  padding: 1.5rem 1rem;
+  color:var(--color-rojo);
+  background-color: white;
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea#mensaje,
+.formulario-label,
+.formulario-input {
+  color: var(--color-rojo);
+  font-weight: 400;
+}
+
+.formulario-label {
+  margin-bottom: 0.5rem;
+}
+
+.formulario-input {
+  border: none;
+  border-bottom: 1px solid var(--color-rojo);
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+}
+
+textarea#mensaje {
+  border: 1px solid var(--color-rojo);
+  resize: none;
+  padding: 0.5rem;
+}
+
+.boton-enviar {
+  border: none;
+  color: var(--color-rojo);  
+  border: 2px solid var(--color-rojo);
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  margin-top: 2rem;
+  align-self: center;
+  border-radius: 5px;  
+  font-weight: 500;
+}
+
+.boton-enviar:hover {  
+  background-color: var(--color-rojo);
+  color: var(--color-amarillo);
+  transition: all 300ms linear;
+}
+
+@media (max-width: 810px) {
+  .contacto {
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .contacto-contendor {    
+    padding: 0.5rem;
+    padding-bottom: 0;  
+  }
+  .contacto-info-contenedor {    
+    grid-template-columns: auto;
+  }
+}
