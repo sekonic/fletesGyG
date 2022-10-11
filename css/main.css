@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
 
 :root {
-  --color-rojo: rgb(132,6,17);
-  --color-amarillo: rgb(248,208,79);
-  --color-amarillo-claro: rgb(251,231,168);
+  --color-primario: rgb(132,6,17);
+  --color-secundario: rgb(248,208,79);
+  --color-complementario: rgb(251,231,168);
   --texto-oscuro: black;
   --texto-claro: white;
 }
@@ -13,7 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;  
-  color: var(--color-amarillo);
+  color: var(--color-secundario);
   font-weight: 500;
 }
 
@@ -23,7 +23,7 @@ html {
 
 a {
   text-decoration: none;
-  color: var(--color-amarillo);
+  color: var(--color-secundario);
   display: inline-block;  
 }
 

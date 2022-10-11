@@ -1,5 +1,12 @@
 footer {
   text-align: center;
-  background-color: var(--color-rojo);
+  background-color: var(--color-primario);
   padding: 5px;
+}
+
+@media (max-width: 650px) {
+  footer {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
 }

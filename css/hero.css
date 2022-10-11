@@ -1,7 +1,7 @@
 .hero {
   position: relative;      
   height: calc(100vh - 60px);
-  background-color: var(--color-amarillo-claro);    
+  background-color: var(--color-complementario);    
   background-position: bottom;  
   background-repeat: no-repeat;
   display: flex;
@@ -15,7 +15,7 @@ svg.onda {
   height: 10vw; 
   width: 100%;
   display: block;
-  filter: drop-shadow(0px -10px 0px var(--color-amarillo));  
+  filter: drop-shadow(0px -10px 0px var(--color-secundario));  
 }
 
 .ondaArriba {
@@ -36,14 +36,14 @@ svg.onda {
 .hero-h2,
 .hero-parrafo,
 .hero a {
-  color: var(--color-rojo);
+  color: var(--color-primario);
 }
 
 .hero-h1 {
   font-size: 3rem;  
   font-weight: 700;
-  color: var(--color-amarillo);
-  background-color: var(--color-rojo);
+  color: var(--color-secundario);
+  background-color: var(--color-primario);
   padding: 5px;
   border-radius: 300px;
   margin-bottom: 1rem;  
@@ -70,7 +70,7 @@ svg.onda {
   padding: 0.75em 0;
   width: 210px;
   border-radius: 5px;
-  border: 2px solid var(--color-rojo);
+  border: 2px solid var(--color-primario);
   display: flex;
   justify-content: center;
   align-items: center;

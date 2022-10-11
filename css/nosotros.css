@@ -1,14 +1,14 @@
 .nosotros {
-  background-color: var(--color-rojo);
-  text-align: center;  
-  padding-left: 40px;
-  padding-right: 40px;
-  /* height: 100vh; */
+  background-color: var(--color-primario);
+  text-align: center;    
+ 
 }
 
 .nosotros-contenedor {
   max-width: 1200px;
   margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .nosotros-texto {
@@ -31,7 +31,7 @@
   .nosotros-imagen img {
     max-width: 300px;    
   }
-  .nosotros {        
+  .nosotros-contenedor {        
     padding-left: 20px;
     padding-right: 20px;
   }

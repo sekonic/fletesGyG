@@ -1,5 +1,5 @@
 header {
-  background-color: var(--color-rojo);
+  background-color: var(--color-primario);
   height: 60px;
   display: flex;  
   align-items: center;
@@ -49,7 +49,7 @@ p.nombre {
 .menu a::after,
 .menu a::before {
   content: "";
-  background-color: var(--color-amarillo);
+  background-color: var(--color-secundario);
   position: absolute;
   bottom: -5px;
   right:0;
@@ -83,7 +83,7 @@ p.nombre {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: var(--color-rojo);
+    background-color: var(--color-primario);
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
