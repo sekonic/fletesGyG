@@ -17,7 +17,7 @@
 
 .contacto-subtitulo,
 .formulario-contacto-subtitulo,
-.datos-contacto-subtitulo {
+h3.datos-contacto-subtitulo {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 400;
@@ -46,8 +46,8 @@
   color: var(--texto-claro);  
 }
 
-.datos-contacto-subtitulo {
-  font-weight: 600;
+h3.datos-contacto-subtitulo {
+  font-weight: 500;
 }
 
 .datos-contacto-contenedor {
