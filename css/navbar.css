@@ -1,5 +1,5 @@
 header {
-  background-color: var(--color-primario);
+  background-color: var(--color-primario);  
   height: 60px;
   display: flex;  
   align-items: center;
@@ -22,7 +22,7 @@ img#logo {
 }
 
 p.nombre {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 600;  
 }
 
@@ -42,6 +42,7 @@ p.nombre {
 }
 
 .menu a {
+  color: var(--texto-claro);
   text-transform: uppercase;
   position: relative;
 }
@@ -49,7 +50,7 @@ p.nombre {
 .menu a::after,
 .menu a::before {
   content: "";
-  background-color: var(--color-secundario);
+  background-color: var(--texto-claro);
   position: absolute;
   bottom: -5px;
   right:0;

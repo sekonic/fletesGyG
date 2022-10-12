@@ -1,7 +1,11 @@
-.nosotros {
-  background-color: var(--color-primario);
-  text-align: center;    
- 
+.nosotros {  
+  background-color:var(--color-claro);
+  text-align: center;  
+}
+
+.nosotros h2,
+.nosotros p {
+  color: var(--texto-oscuro);
 }
 
 .nosotros-contenedor {
@@ -22,8 +26,7 @@
 }
 
 .nosotros-imagen img {
-  max-width: 400px;
-  filter: drop-shadow(-2px 2px 5px white);
+  max-width: 400px;  
   margin: auto;
 }
 

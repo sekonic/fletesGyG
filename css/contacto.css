@@ -1,14 +1,18 @@
-.contacto {
-  background-color: var(--color-complementario);
+.contacto {  
+  background-color: var(--color-primario);
   height: 100vh;
   padding-bottom: 0;
 }
 
 .contacto-titulo,
 .contacto-subtitulo,
+.formulario-contacto-subtitulo {  
+  color: var(--texto-claro);
+  text-align: center;  
+}
+
 .formulario-contacto-subtitulo {
   color: var(--color-primario);
-  text-align: center;  
 }
 
 .contacto-subtitulo,
@@ -31,11 +35,15 @@
   grid-template-columns: auto 1fr;
 }
 
-.datos-contacto {
-  background-color: var(--color-primario);
+.datos-contacto { 
+  background-color: rgb(80,80,80);  
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+}
+
+.datos-contacto a {  
+  color: var(--texto-claro);  
 }
 
 .datos-contacto-subtitulo {
@@ -74,7 +82,7 @@
 .formulario-contacto {
   padding: 1.5rem 1rem;
   color:var(--color-primario);
-  background-color: white;
+  background-color: var(--texto-claro);
 }
 
 .formulario-contacto form {
@@ -131,7 +139,7 @@ input[type=number]{
 
 .boton-enviar:hover {  
   background-color: var(--color-primario);
-  color: var(--color-secundario);
+  color: var(--texto-claro);
   transition: all 300ms linear;
 }
 
